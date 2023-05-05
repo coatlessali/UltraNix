@@ -29,6 +29,9 @@ After seeing a couple of messages in the ULTRAKILL Discord server, I felt the ne
 * Symlinks the Cybergrind folder to CyberGrind to workaround a bug.
 * Does not use ANY Ultrakill assets other than the Icon for the UnityPlayer.
 
+## Notes About Mod Loading
+Currently, upstream UltraModManager does not function on non-Win32 platforms. However, I have a fork that fixes this issue that you can [download here](https://github.com/coatlessali/ultra-mod-manager/releases/tag/v0.5.5-UNIX). Install the same way as upstream, using the UNIX version of BepInEx.
+
 ## F.A.Q.
 * Why do this?
 
