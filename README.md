@@ -67,7 +67,7 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * Lighting can bug out in some instances.\*
 * Outlines are disabled.\*
 * GPU performance is slightly worse in some situations/hardware setups.\*
-* MP4 file does not play in the Hall of Shame. (Likely uses `\` for the filepaths, and for Linux, MP4 files aren't supported.)
+* MP4 file does not play in the Hall of Shame. (On Mac, something about how the video is encoded causes it not play on my system, may be hardware specific. For Linux, the Unity Player does not support MP4 playback.)
 * A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
 * MacOS version seems to have inconsistent performance. First two boots ran horrifically, while the third ran nearly flawlessly.
 * The name of this project is awful and I am open to suggestions.
