@@ -70,5 +70,6 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * MP4 file does not play in the Hall of Shame. (Likely uses `\` for the filepaths, and for Linux, MP4 files aren't supported.)
 * A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
 * MacOS version seems to have inconsistent performance. First two boots ran horrifically, while the third ran nearly flawlessly.
+* The name of this project is awful and I am open to suggestions.
 
 \* Can be fixed on Linux specifically by the enablement of the Vulkan renderer by the Devteam. According to Victoria in the #ultramods channel, this is a feature that is coming in the next update for testing/feedback.
