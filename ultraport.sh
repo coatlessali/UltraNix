@@ -27,9 +27,10 @@ if [[ "$(uname -a)" == *"Darwin"* ]]; then
         echo "Found libsteam_api.dylib..."
         cp libsteam_api.dylib ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/libsteam_api64.dylib
     fi
-    echo "Symlinking Preferences and Saves..."
+    echo "Symlinking Preferences, Saves, and CyberGrind..."
     ln -s "$(pwd)/Preferences" "$(pwd)/ULTRAKILL.app/Preferences"
     ln -s "$(pwd)/Saves" "$(pwd)/ULTRAKILL.app/Saves"
+    ln -s "$(pwd)/Cybergrind" "$(pwd)/ULTRAKILL.app/CyberGrind"
     echo "You can now open ULTRAKILL.app by right-clicking it and clicking \"Open\"."
 else
     echo "Darwin not found in uname, assuming Linux/FreeBSD through Linuxulator..."
