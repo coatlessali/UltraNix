@@ -21,11 +21,11 @@ if [[ "$(uname -a)" == *"Darwin"* ]]; then
     mkdir -p ULTRAKILL.app/Contents/MonoBleedingEdge/osx/
     if [ -f "discord_game_sdk.dylib" ]; then
         echo "Found discord_game_sdk.dylib..."
-        mv discord_game_sdk.dylib ULTRAKILL.app/Contents/MonoBleedingEdge/osx/
+        cp discord_game_sdk.dylib ULTRAKILL.app/Contents/MonoBleedingEdge/osx/
     fi
     if [ -f "libsteam_api.dylib" ]; then
         echo "Found libsteam_api.dylib..."
-        mv libsteam_api.dylib ULTRAKILL.app/Contents/MonoBleedingEdge/osx/libsteam_api64.dylib
+        cp libsteam_api.dylib ULTRAKILL.app/Contents/MonoBleedingEdge/osx/libsteam_api64.dylib
     fi
     echo "Symlinking Preferences and Saves..."
     ln -s "$(pwd)/Preferences" "$(pwd)/ULTRAKILL.app/Preferences"
@@ -44,7 +44,7 @@ else
 	echo "Found ./discord_game_sdk.so..."
         cp discord_game_sdk.so ULTRAKILL_Data/Plugins/x86_64
     else
-	echo "discord_game_sdk.so not found in this folder! Please add it and try again."
+	echo "discord_game_sdk.so not found, skipping..."
 	exit
     fi
 
@@ -53,6 +53,7 @@ else
         tar -xzf ULTRAPORT.tar.gz
     else
 	echo "Failed to locate ./ULTRAPORT.tar.gz, exiting."
+	
     fi
 
     echo "Linking Cybergrind to CyberGrind to avoid case sensitivity bug..."
