@@ -26,3 +26,5 @@ There are 4 categories:
 
 ## Borked
 * [WafflesWeapons](https://thunderstore.io/c/ultrakill/p/Waff1e/WafflesWeapons/) by [Waff1e](https://github.com/wafflethings) / Does not load, even after fixing filepaths. Not sure if it's related to AtlasLib or not.
+
+I have confirmed that all mods that work on Linux seem to work on MacOS as well.
