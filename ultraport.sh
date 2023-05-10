@@ -18,14 +18,14 @@ if [[ "$(uname -a)" == *"Darwin"* ]]; then
     fi
     cp -r ULTRAKILL_Data/* ULTRAKILL.app/Contents/Resources/Data/
     mv ULTRAKILL.app/Contents/Resources/Data/Resources/unity\ default\ resources ULTRAKILL.app/Contents/Resources/
-    mkdir -p ULTRAKILL.app/Contents/MonoBleedingEdge/osx/
+    mkdir -p ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/
     if [ -f "discord_game_sdk.dylib" ]; then
         echo "Found discord_game_sdk.dylib..."
-        cp discord_game_sdk.dylib ULTRAKILL.app/Contents/MonoBleedingEdge/osx/
+        cp discord_game_sdk.dylib ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/
     fi
     if [ -f "libsteam_api.dylib" ]; then
         echo "Found libsteam_api.dylib..."
-        cp libsteam_api.dylib ULTRAKILL.app/Contents/MonoBleedingEdge/osx/libsteam_api64.dylib
+        cp libsteam_api.dylib ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/libsteam_api64.dylib
     fi
     echo "Symlinking Preferences and Saves..."
     ln -s "$(pwd)/Preferences" "$(pwd)/ULTRAKILL.app/Preferences"
