@@ -1,5 +1,7 @@
 # Mod Support for UNIX
 
+Note for MacOS Users: Having `libsteam_api64.dylib` in `ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/` will **cause BepInEx to hang at the loading screen.** You can remove this file to proceed, however leaderboard support will be lost.
+
 There are 4 categories:
 * Out of the Box - Mod works as-is, with no fixes required.
 * Fork Available (Prebuilt) - Mod that has a prebuilt fork available on GitHub.
