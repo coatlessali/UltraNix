@@ -61,6 +61,7 @@ Currently, upstream UltraModManager does not function on non-Win32 platforms. Ho
 Proton seems to have issues trying to alt-tab out of Unity games. It also allows you to use the Linux version of BepInEx for mod loading. Most crucially, it allows MacOS players to experience ULTRAKILL. It's also just neat :3
 
 ## Known Issues
+* **Level 4-S is Unplayable on MacOS.** Once the door opens, the game stops rendering the level, and the camera switch never takes place. The pause menu still works.
 * Scrolling in menus is very slow on Linux, and inverted.
 * Mouse sensitivity is *really low* on MacOS.
 * On case sensitive filesystems, the `Cybergrind` folder must be symlinked to `CyberGrind`.
