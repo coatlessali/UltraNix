@@ -6,6 +6,7 @@ After seeing a couple of messages in the ULTRAKILL Discord server, I felt the ne
 * This is ***NOT*** a recompilation of ULTRAKILL. None of the original source code or assets are used, excepting the UnityPlayer icon.
 * I will try to keep this up to date, but if the Unity version ever changes (like it did with the "Back to the Cybergrind" update), the game *will not boot.* You can fix this by reproducing a dummy project yourself with the correct game version.
 * Also, if any of the devs ever add native Windows libraries to the game, then it *will not run,* and will be *impossible* to fix.
+* **Please read the known issues at the bottom of the page.**
 * **At the request of any ULTRAKILL dev/team member, I will take this repo down, no questions asked.**
 
 ## Dependencies
