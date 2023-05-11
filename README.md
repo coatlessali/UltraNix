@@ -50,7 +50,7 @@ After seeing a couple of messages in the ULTRAKILL Discord server, I felt the ne
 * Moves the plugins into their proper place.
 * Symlinks the Cybergrind folder to CyberGrind to workaround a bug. (Linux)
 * Moves all of your game assets and plugins into `ULTRAKILL.app/`. (MacOS)
-* Symlinks your `Saves/` and `Preferences/` into `ULTRAKILL.app/`. (MacOS)
+* Symlinks your `Saves/`, `Preferences/`, and `Cybergrind` into `ULTRAKILL.app/`. (MacOS)
 * Does not use ANY Ultrakill assets other than the Icon for the UnityPlayer.
 
 ## Notes About Mod Loading
@@ -61,17 +61,25 @@ Currently, upstream UltraModManager does not function on non-Win32 platforms. Ho
 
 Proton seems to have issues trying to alt-tab out of Unity games. It also allows you to use the Linux version of BepInEx for mod loading. Most crucially, it allows MacOS players to experience ULTRAKILL. It's also just neat :3
 
-## Known Issues
-* **Level 4-S is Unplayable on MacOS.** Once the door opens, the game stops rendering the level, and the camera switch never takes place. The pause menu still works.
-* Scrolling in menus is very slow on Linux, and inverted.
-* Mouse sensitivity is *really low* on MacOS.
-* On case sensitive filesystems, the `Cybergrind` folder must be symlinked to `CyberGrind`.
-* Lighting can bug out in some instances.\*
-* Outlines are disabled.\*
-* GPU performance is slightly worse in some situations/hardware setups.\*
-* MP4 file does not play in the Hall of Shame. (On Mac, something about how the video is encoded causes it not play on my system, may be hardware specific. For Linux, the Unity Player does not support MP4 playback.)
+## Known Issues (All Platforms)
 * A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
-* MacOS version seems to have inconsistent performance. First two boots ran horrifically, while the third ran nearly flawlessly.
+* GPU performance is slightly worse in some situations/hardware setups.\*
+* Outlines are disabled.\*
+* Lighting can bug out in some instances.\*
 * The name of this project is awful and I am open to suggestions.
+
+## Known Issues (MacOS)
+* **Level 4-S is Unplayable on MacOS.** Once the game switches to clash mode, the camera fails to switch properly. You can still see the viewport in the reflection of Water, oddly enough.
+* **MacOS seems to have a memory leak.** The longer the game is open, the more laggy it becomes.
+* Mouse sensitivity is *really* low.
+* Steamworks SDK Plugin and BepInEx cannot be loaded simultaneously. Doing so will cause a hang on the initial loading screen.
+* Movie does not play in the Hall of Shame. (Something to do with how the video is encoded?)
+* MacOS version seems to have inconsistent performance. First two boots ran horrifically, while the third ran nearly flawlessly.
+* ULTRAKILL.app will crash if `Preferences`, `Saves`, and `CyberGrind` are not either present or symlinked in `ULTRAKILL.app/`. The script now handles this for you.
+
+## Known Issues (Linux)
+* Scrolling in menus is very slow on Linux, and inverted.
+* On case sensitive filesystems, the `Cybergrind` folder must be symlinked to `CyberGrind`. The script handles this for you.
+* Movie does not play in the Hall of Shame, due to the Linux UnityPlayer not supporting MP4 files.
 
 \* Can be fixed on Linux specifically by the enablement of the Vulkan renderer by the Devteam. According to Victoria in the #ultramods channel, this is a feature that is coming in the next update for testing/feedback.
