@@ -74,12 +74,13 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * Mouse sensitivity is *really* low.
 * Steamworks SDK Plugin and BepInEx cannot be loaded simultaneously. Doing so will cause a hang on the initial loading screen.
 * Movie does not play in the Hall of Shame. (Something to do with how the video is encoded?)
-* MacOS version seems to have inconsistent performance. First two boots ran horrifically, while the third ran nearly flawlessly.
+* The Level Colloquially Known as 5-S's TV is missing its screen texture, making the tube transparent.
 * ULTRAKILL.app will crash if `Preferences`, `Saves`, and `CyberGrind` are not either present or symlinked in `ULTRAKILL.app/`. The script now handles this for you.
 
 ## Known Issues (Linux)
 * Scrolling in menus is very slow on Linux, and inverted.
 * On case sensitive filesystems, the `Cybergrind` folder must be symlinked to `CyberGrind`. The script handles this for you.
 * Movie does not play in the Hall of Shame, due to the Linux UnityPlayer not supporting MP4 files.
+* The Level Colloquially Known as 5-S's TV shows a white screen.
 
 \* Can be fixed on Linux specifically by the enablement of the Vulkan renderer by the Devteam. According to Victoria in the #ultramods channel, this is a feature that is coming in the next update for testing/feedback.
