@@ -25,7 +25,7 @@ if [[ "$(uname -a)" == *"Darwin"* ]]; then
     fi
     if [ -f "libsteam_api.dylib" ]; then
         echo "Found libsteam_api.dylib..."
-	echo "WARNING: This will break BepInEx compatibility. Remove ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/libsteam_api64.dylib if you wish to use mods. Continuing...
+	echo "WARNING: This will break BepInEx compatibility. Remove ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/libsteam_api64.dylib if you wish to use mods. Continuing..."
         cp libsteam_api.dylib ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/libsteam_api64.dylib
     fi
     echo "Symlinking Preferences, Saves, and CyberGrind..."
