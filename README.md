@@ -12,8 +12,8 @@ After seeing a couple of messages in the ULTRAKILL Discord server, I felt the ne
 ## Dependencies
 * Requires that you own a legitimate copy of ULTRAKILL. There are methods to download it through Steam on Linux and MacOS listed below. No, I will not give you the game. Don't ask.
 * (Optional, see below) You need to **PERSONALLY** download the [Steamworks SDK v1.48a](https://partner.steamgames.com/downloads/list) and [Discord Game SDK v2.5.6](https://discord.com/developers/docs/game-sdk/sdk-starter-guide), both of which may require accounts with the respected owners. No, I cannot redistribute these files to you. Don't ask.
-* This will not work on platforms other than x86_64.
-* This is *untested* on M1 and later Mac systems, but should work via Rosetta.
+* This project is for **x86_64** systems only. To use on any other architecture, such as aarch64, you will need an emulator or translation layer, such as Rosetta for MacOS.
+
 
 ## Downloading ULTRAKILL on Steam (Linux)
 * 1. Head to Steam > Settings > Compatibility.
