@@ -69,7 +69,7 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * The name of this project is awful and I am open to suggestions.
 
 ## Known Issues (MacOS)
-* **Level 4-S may be Unplayable on AMDGPUs.** Once the game switches to clash mode, the camera fails to switch properly. You can still see the viewport in the reflection of Water, oddly enough. Only confirmed in QEMU/KVM setup with an RX 6600.
+
 
 * Mouse sensitivity is *really* low.
 * Steamworks SDK Plugin and BepInEx cannot be loaded simultaneously. Doing so will cause a hang on the initial loading screen.
