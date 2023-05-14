@@ -1,12 +1,13 @@
 # Ultraport
-Is Proton not good enough? Are you tired of the alt-tab bug that happens in Unity games? Is fullscreen not working correctly? Do you want to play on 64-bit only systems? **Are You a MacOS user?** Can you not contain the *silliness?* This one's for you.
+Play ULTRAKILL natively on Linux/MacOS!
 
 ## CLARIFICATIONS:
-After seeing a couple of messages in the ULTRAKILL Discord server, I felt the need to clarify a few things.
 * This is ***NOT*** a recompilation of ULTRAKILL. None of the original source code or assets are used, excepting the UnityPlayer icon.
 * I will try to keep this up to date, but if the Unity version ever changes (like it did with the "Back to the Cybergrind" update), the game *will not boot.* You can fix this by reproducing a dummy project yourself with the correct game version.
 * Also, if any of the devs ever add native Windows libraries to the game, then it *will not run,* and will be *impossible* to fix.
+* For the complete ULTRAKILL experience, I still recommend Linux users play the Windows build with Proton, as it is officially supported to some capacity. This is more of a curiosity than anything.
 * **Please read the known issues at the bottom of the page.**
+* **Playing the game this way is unsupported.** Do not pester the dev team with bugs related to these ports. Do not report bugs that occur while playing this way.
 * **At the request of any ULTRAKILL dev/team member, I will take this repo down, no questions asked.**
 
 ## Dependencies
@@ -51,7 +52,6 @@ After seeing a couple of messages in the ULTRAKILL Discord server, I felt the ne
 * Symlinks the Cybergrind folder to CyberGrind to workaround a bug. (Linux)
 * Moves all of your game assets and plugins into `ULTRAKILL.app/`. (MacOS)
 * Symlinks your `Saves/`, `Preferences/`, and `Cybergrind` into `ULTRAKILL.app/`. (MacOS)
-* Does not use ANY Ultrakill assets other than the Icon for the UnityPlayer.
 
 ## Notes About Mod Loading
 Currently, upstream UltraModManager does not function on non-Win32 platforms. However, I have a fork that fixes this issue that you can [download here](https://github.com/coatlessali/ultra-mod-manager/releases/tag/v0.5.5-UNIX). Install the same way as upstream, using the UNIX version of BepInEx. You can find a list of known working mods in `MODS.md`. When using BepInEx on MacOS, **having libsteam_api64.dylib present will cause a hang at load time.** Removing this file allows BepInEx to work perfectly. More info in `MODS.md`.
@@ -69,8 +69,6 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * The name of this project is awful and I am open to suggestions.
 
 ## Known Issues (MacOS)
-
-
 * Mouse sensitivity is *really* low.
 * Steamworks SDK Plugin and BepInEx cannot be loaded simultaneously. Doing so will cause a hang on the initial loading screen.
 * Movie does not play in the Hall of Shame. (Something to do with how the video is encoded?)
@@ -78,8 +76,7 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * ULTRAKILL.app will crash if `Preferences`, `Saves`, and `CyberGrind` are not either present or symlinked in `ULTRAKILL.app/`. The script now handles this for you.
 
 ## Known Issues (Linux)
-* Scrolling in menus is very slow on Linux, and inverted.
-* On case sensitive filesystems, the `Cybergrind` folder must be symlinked to `CyberGrind`. The script handles this for you.
+* Scrolling in menus is very slow, and inverted.
 * Movie does not play in the Hall of Shame, due to the Linux UnityPlayer not supporting MP4 files.
 * The Level Colloquially Known as 5-S's TV shows a white screen.
 
