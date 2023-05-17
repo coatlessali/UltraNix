@@ -16,6 +16,10 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [PizzafaceMod](https://thunderstore.io/c/ultrakill/p/Edith/PizzafaceMod/) by [Edith](https://github.com/DrPHDCat)
 * [I WONt SUGARCOAT IT](https://thunderstore.io/c/ultrakill/p/Graze/I_WONt_SUGARCOAT_IT/) by [Graze](https://github.com/The-Graze)
 * [PrimePresidents](https://thunderstore.io/c/ultrakill/p/armedturret/PrimePresidents/) by [armedturret](https://github.com/armedturret)
+* [PluginConfigurator](https://thunderstore.io/c/ultrakill/p/EternalsTeam/PluginConfigurator/) by [EternalsTeam](https://github.com/eternalUnion)
+* [Ultrapain](https://thunderstore.io/c/ultrakill/p/EternalsTeam/UltraPain/) by [EternalsTeam](https://github.com/eternalUnion)
+* [TheLInLustStandsForLesbian](https://thunderstore.io/c/ultrakill/p/NotABot/TheLInLustStandsForLesbian/) by [NotABot](https://github.com/nota8ot)
+* [UKButt](https://github.com/PITR-DEV/ukbutt-mod) by **PITR\*** **(18+)**
 
 ## Fork Available (Prebuilt)
 * [UltraModManager](https://thunderstore.io/c/ultrakill/p/Temperz87/UltraModManager/) by [Temperz87](https://github.com/Temperz87/ultra-mod-manager) / [Fix](https://github.com/coatlessali/ultra-mod-manager/releases/tag/v0.5.5-UNIX) by [coatlessali](https://github.com/coatlessali)
@@ -26,9 +30,10 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon) / [Fork](https://github.com/coatlessali/LowTierMinos/tree/patch-1) by [coatlessali](https://github.com/coatlessali)
 
 ## Issues
-* [UltraFunGuns](https://thunderstore.io/c/ultrakill/p/Hydraxous/UltraFunGuns/) by [Hydraxous](https://github.com/Hydraxous) / Shaders are missing on all custom models
+* [UltraFunGuns](https://thunderstore.io/c/ultrakill/p/Hydraxous/UltraFunGuns/) by [Hydraxous](https://github.com/Hydraxous) / Shaders are missing on all custom models, can be fixed by enabling OpenGLCore in the Unity Build Settings
 
 ## Borked
-* [WafflesWeapons](https://thunderstore.io/c/ultrakill/p/Waff1e/WafflesWeapons/) by [Waff1e](https://github.com/wafflethings) / Does not load, even after fixing filepaths. Not sure if it's related to AtlasLib or not.
+* [WafflesWeapons](https://thunderstore.io/c/ultrakill/p/Waff1e/WafflesWeapons/) by [Waff1e](https://github.com/wafflethings) / PENDING UPDATE - Will be moved to 'OotB'
+* [AtlasLib](https://thunderstore.io/c/ultrakill/p/Waff1e/AtlasLib/) by [Waff1e](https://github.com/wafflethings/) / PENDING UPDATE - Will be moved to 'OotB'
 
-I have confirmed that all mods that work on Linux seem to work on MacOS as well.
+\* Please don't ask for support regarding this, at least without clarifying that you're playing on an unsupported platform. The only part of this that has been tested is the client being able to connect to Intiface Central.
