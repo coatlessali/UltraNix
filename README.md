@@ -62,7 +62,7 @@ Currently, upstream UltraModManager does not function on non-Win32 platforms. Ho
 Proton seems to have issues trying to alt-tab out of Unity games. It also allows you to use the Linux version of BepInEx for mod loading. Most crucially, it allows MacOS players to experience ULTRAKILL. It's also just neat :3
 
 ## Known Issues (All Platforms)
-* A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
+* A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` or `Path.Combine()` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
 * GPU performance is slightly worse in some situations/hardware setups.\*
 * Outlines are disabled.\*
 * Lighting can bug out in some instances.\*
@@ -79,5 +79,6 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * Scrolling in menus is very slow, and inverted.
 * Movie does not play in the Hall of Shame, due to the Linux UnityPlayer not supporting MP4 files.
 * The Level Colloquially Known as 5-S's TV shows a white screen.
+* Game randomly SIGABRTs when starting. Unknown as to why. Fixed by relaunching.
 
 \* Can be fixed on Linux specifically by the enablement of the Vulkan renderer by the Devteam. According to Victoria in the #ultramods channel, this is a feature that is coming in the next update for testing/feedback.
