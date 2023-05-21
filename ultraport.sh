@@ -67,7 +67,6 @@ else
         cp discord_game_sdk.so ULTRAKILL_Data/Plugins/x86_64
     else
 		echo "discord_game_sdk.so not found, skipping..."
-		exit
     fi
 
 	# Extract dummy UnityPlayer
