@@ -71,15 +71,16 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 ## Known Issues (MacOS)
 * Mouse sensitivity is *really* low.
 * Steamworks SDK Plugin and BepInEx cannot be loaded simultaneously. Doing so will cause a hang on the initial loading screen.
-* Movie does not play in the Hall of Shame. (Something to do with how the video is encoded?)
+* Movie does not play in the Hall of Shame. (Something to do with how the video is encoded?)\*\*
 * The Level Colloquially Known as 5-S's TV is missing its screen texture, making the tube transparent. (Something to do with how the video is encoded?)
 * ULTRAKILL.app will crash if `Preferences`, `Saves`, and `CyberGrind` are not either present or symlinked in `ULTRAKILL.app/`. The script now handles this for you.
 
 ## Known Issues (Linux)
 * Scrolling in menus is very slow, and inverted.
-* Movie does not play in the Hall of Shame, due to the Linux UnityPlayer not supporting MP4 files.
+* Movie does not play in the Hall of Shame, due to the Linux UnityPlayer not supporting MP4 files.\*\*
 * The Level Colloquially Known as 5-S's TV shows a white screen.
 * Game randomly SIGABRTs when starting. Unknown as to why. Fixed by relaunching.
 * Using Gamescope on either the port or the Windows version via Proton can cause weird side effects when alt-tabbing, such as phantom inputs.
 
 \* Can be fixed on Linux specifically by the enablement of the Vulkan renderer by the Devteam. According to Victoria in the #ultramods channel, this is a feature that is coming in the next update for testing/feedback.
+\*\* Can be fixed using the [UltraNixVideoFix](https://github.com/coatlessali/UltraNixVideoFix) BepInEx Plugin.
