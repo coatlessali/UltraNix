@@ -2,6 +2,12 @@
 
 Note for MacOS Users: Having `libsteam_api64.dylib` in `ULTRAKILL.app/Contents/Frameworks/MonoEmbedRuntime/osx/` will **cause BepInEx to hang at the loading screen.** You can remove this file to proceed, however leaderboard support will be lost.
 
+Here are some reasons your mod might not work correctly:
+* File paths in the code are specific to Windows. (i.e. `\\` or `@"\"` instead of `Path.DirectorySeparatorChar()`, not using `Path.Combine()`.)
+* Shaders aren't compiled for your platform. (OpenGL on MacOS/Linux)
+
+## Compatibility List
+
 There are 5 categories:
 * Out of the Box - Mod works as-is, with no fixes required.
 * Fork Available (Prebuilt) - Mod that has a prebuilt fork available on GitHub.
@@ -20,6 +26,7 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [Ultrapain](https://thunderstore.io/c/ultrakill/p/EternalsTeam/UltraPain/) by [EternalsTeam](https://github.com/eternalUnion)
 * [TheLInLustStandsForLesbian](https://thunderstore.io/c/ultrakill/p/NotABot/TheLInLustStandsForLesbian/) by [NotABot](https://github.com/nota8ot)
 * [UKButt](https://github.com/PITR-DEV/ukbutt-mod) by **PITR\*** **(18+)**
+* [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon) / [Fork](https://github.com/coatlessali/LowTierMinos/tree/patch-1) by [coatlessali](https://github.com/coatlessali)
 
 ## Fork Available (Prebuilt)
 * [UltraModManager](https://thunderstore.io/c/ultrakill/p/Temperz87/UltraModManager/) by [Temperz87](https://github.com/Temperz87/ultra-mod-manager) / [Fix](https://github.com/coatlessali/ultra-mod-manager/releases/tag/v0.5.5-UNIX) by [coatlessali](https://github.com/coatlessali)
@@ -27,7 +34,7 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [BetterWeaponColourMenu](https://thunderstore.io/c/ultrakill/p/NotABot/BetterWeaponColourMenu/) by [NotABot](https://github.com/nota8ot) / [Fix](https://github.com/coatlessali/BetterWeaponColourMenu/releases/tag/UNIX) by [coatlessali](https://github.com/coatlessali)
 
 ## Fork Available (Untested)
-* [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon) / [Fork](https://github.com/coatlessali/LowTierMinos/tree/patch-1) by [coatlessali](https://github.com/coatlessali)
+* None so far
 
 ## Issues
 * [UltraFunGuns](https://thunderstore.io/c/ultrakill/p/Hydraxous/UltraFunGuns/) by [Hydraxous](https://github.com/Hydraxous) / Shaders are missing on all custom models, can be fixed by enabling OpenGLCore in the Unity Build Settings
