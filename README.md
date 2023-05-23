@@ -54,7 +54,7 @@ Play ULTRAKILL natively on Linux/MacOS!
 * Symlinks your `Saves/`, `Preferences/`, and `Cybergrind` into `ULTRAKILL.app/`. (MacOS)
 
 ## Notes About Mod Loading
-Currently, upstream UltraModManager does not function on non-Win32 platforms. However, I have a fork that fixes this issue that you can [download here](https://github.com/coatlessali/ultra-mod-manager/releases/tag/v0.5.5-UNIX). Install the same way as upstream, using the UNIX version of BepInEx. You can find a list of known working mods in `MODS.md`. When using BepInEx on MacOS, **having libsteam_api64.dylib present will cause a hang at load time.** Removing this file allows BepInEx to work perfectly. More info in `MODS.md`.
+A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` or `Path.Combine()` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
 
 ## F.A.Q.
 * Why do this?
@@ -62,7 +62,6 @@ Currently, upstream UltraModManager does not function on non-Win32 platforms. Ho
 Proton seems to have issues trying to alt-tab out of Unity games. It also allows you to use the Linux version of BepInEx for mod loading. Most crucially, it allows MacOS players to experience ULTRAKILL. It's also just neat :3
 
 ## Known Issues (All Platforms)
-* A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` or `Path.Combine()` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
 * GPU performance is slightly worse in some situations/hardware setups.\*
 * Outlines are disabled.\*
 * Lighting can bug out in some instances.\*

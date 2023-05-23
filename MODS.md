@@ -17,6 +17,7 @@ There are 5 categories:
 
 ## Out of the Box
 NOTE: UltrakULL won't receive support properly until the next update releases.
+* [UltraModManager](https://thunderstore.io/c/ultrakill/p/Temperz87/UltraModManager/) by [Temperz87](https://github.com/Temperz87/ultra-mod-manager)
 * [UltraNixVideoFix](https://github.com/coatlessali/UltraNixVideoFix) by [coatlessali](https://github.com/coatlessali)
 * [UltrakULL](https://github.com/ClearwaterUK/UltrakULL) by [ClearwaterUK](https://github.com/ClearwaterUK)
 * [LowTierSisyphus](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierSisyphus/) by [ImNotSimon](https://github.com/ImNotSimon)
@@ -30,7 +31,6 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon) / [Fork](https://github.com/coatlessali/LowTierMinos/tree/patch-1) by [coatlessali](https://github.com/coatlessali)
 
 ## Fork Available (Prebuilt)
-* [UltraModManager](https://thunderstore.io/c/ultrakill/p/Temperz87/UltraModManager/) by [Temperz87](https://github.com/Temperz87/ultra-mod-manager) / [Fix](https://github.com/coatlessali/ultra-mod-manager/releases/tag/v0.5.5-UNIX) by [coatlessali](https://github.com/coatlessali)
 * [UltraTweaker](https://thunderstore.io/c/ultrakill/p/Waff1e/UltraTweaker/) by [Waff1e](https://github.com/wafflethings) / [Fix](https://github.com/coatlessali/UltraTweaker/releases/tag/UltraTweaker-UNIX) by [coatlessali](https://github.com/coatlessali)
 * [BetterWeaponColourMenu](https://thunderstore.io/c/ultrakill/p/NotABot/BetterWeaponColourMenu/) by [NotABot](https://github.com/nota8ot) / [Fix](https://github.com/coatlessali/BetterWeaponColourMenu/releases/tag/UNIX) by [coatlessali](https://github.com/coatlessali)
 
