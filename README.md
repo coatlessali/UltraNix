@@ -1,5 +1,5 @@
-# Ultraport
-Play ULTRAKILL natively on Linux/MacOS!
+# UltraNix
+A porting script for MacOS/Linux.
 
 ## CLARIFICATIONS:
 * This is ***NOT*** a recompilation of ULTRAKILL. None of the original source code or assets are used, excepting the UnityPlayer icon.
