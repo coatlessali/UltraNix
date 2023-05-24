@@ -1,5 +1,5 @@
 # UltraNix
-A porting script for MacOS/Linux.
+An ULTRAKILL porting script for MacOS/Linux.
 
 ## CLARIFICATIONS:
 * This is ***NOT*** a recompilation of ULTRAKILL. None of the original source code or assets are used, excepting the UnityPlayer icon.
