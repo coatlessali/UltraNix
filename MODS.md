@@ -6,6 +6,16 @@ Here are some reasons your mod might not work correctly:
 * File paths in the code are specific to Windows. (i.e. `\\` or `@"\"` instead of `Path.DirectorySeparatorChar()`, not using `Path.Combine()`.)
 * Shaders aren't compiled for your platform. (OpenGL on MacOS/Linux)
 
+## r2modman
+
+Alright, so here's how to get r2modman working:
+
+1. Don't.
+
+After using it for a little bit, I've determined that it's a bit of a cluttered tool, and a lot of mods (even my own are guilty of this) don't follow a set packaging format, since there isn't really a defined standard. There's also no easy way to launch ULTRAKILL modded this way, and if you really want an easier solution, you can just change `ULTRAKILL.x86_64` in your launch options to `run_bepinex.sh`. The way r2modman uses a separate directory for mods can also cause issues and confusion with newbies.
+
+**If you choose to use r2modman, I will not provide any support. You are free to do so, but you are on your own.**
+
 ## Compatibility List
 
 There are 5 categories:
