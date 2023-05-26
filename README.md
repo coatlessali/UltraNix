@@ -82,4 +82,5 @@ Proton seems to have issues trying to alt-tab out of Unity games. It also allows
 * Using Gamescope on either the port or the Windows version via Proton can cause weird side effects when alt-tabbing, such as phantom inputs.
 
 \* Can be fixed on Linux specifically by the enablement of the Vulkan renderer by the Devteam. According to Victoria in the #ultramods channel, this is a feature that is coming in the next update for testing/feedback. Alternatively, I wrote a [Plugin](https://github.com/coatlessali/GLCoreScissors/), but I'm not sure I'd recommend using it unless you understand why it's a bad idea.
+
 \*\* Can be fixed using the [UltraNixVideoFix](https://github.com/coatlessali/UltraNixVideoFix) BepInEx Plugin.
