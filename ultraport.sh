@@ -1,6 +1,10 @@
 #!/bin/bash
 
 # Check for Operating System in use
+echo "NOTICE: Do not report bugs related to this port in any official capacity."
+echo "Unofficial Linux/MacOS support is maintained by me, coatlessali."
+echo "Proton support is maintained by Valve. You can report bugs at their github page."
+
 if [[ "$(uname -a)" == *"Darwin"* ]]; then
     echo "Darwin found in uname, assuming MacOS..."
     
