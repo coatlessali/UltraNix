@@ -2,16 +2,16 @@
 A set of resources and scripts for porting ULTRAKILL to Linux/MacOS.
 
 ## NOTICE:
-So I really hoped I wouldn't have to put this here, but due to the actions of some people I feel like this needs to be said.
+So I really hoped I wouldn't have to put this here, but:
 
 ***DO NOT REPORT BUGS RELATED TO THIS PORT IN ANY OFFICIAL CAPACITY.***
 
-***Unofficial Linux support is maintained by ME.***
+***Unofficial Linux/MacOS support is maintained by ME.***
 
 ***Proton support is maintained by [VALVE](https://github.com/ValveSoftware/Proton/issues/4406)
 .***
 
-Frankly, I'm really disappointed.
+
 
 ![20230610_20h03m32s_grim](https://github.com/coatlessali/UltraNix/assets/61166135/86499157-27e0-4c30-bf52-5eb80ff0b064)
 
