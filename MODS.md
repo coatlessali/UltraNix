@@ -38,17 +38,18 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [Ultrapain](https://thunderstore.io/c/ultrakill/p/EternalsTeam/UltraPain/) by [EternalsTeam](https://github.com/eternalUnion)
 * [TheLInLustStandsForLesbian](https://thunderstore.io/c/ultrakill/p/NotABot/TheLInLustStandsForLesbian/) by [NotABot](https://github.com/nota8ot)
 * [UKButt](https://github.com/PITR-DEV/ukbutt-mod) by **PITR\*** **(18+)**
-* [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon) / [Fork](https://github.com/coatlessali/LowTierMinos/tree/patch-1) by [coatlessali](https://github.com/coatlessali)
-
+* [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon)
+* [UltraFunGuns](https://thunderstore.io/c/ultrakill/p/Hydraxous/UltraFunGuns/) by [Hydraxous](https://github.com/Hydraxous)
+ 
 ## Fork Available (Prebuilt)
-* [UltraTweaker](https://thunderstore.io/c/ultrakill/p/Waff1e/UltraTweaker/) by [Waff1e](https://github.com/wafflethings) / [Fix](https://github.com/coatlessali/UltraTweaker/releases/tag/UltraTweaker-UNIX) by [coatlessali](https://github.com/coatlessali)
+* [UltraTweaker](https://thunderstore.io/c/ultrakill/p/Waff1e/UltraTweaker/) by [Waff1e](https://github.com/wafflethings) / [OUTDATED Fix](https://github.com/coatlessali/UltraTweaker/releases/tag/UltraTweaker-UNIX) by [coatlessali](https://github.com/coatlessali)
 * [BetterWeaponColourMenu](https://thunderstore.io/c/ultrakill/p/NotABot/BetterWeaponColourMenu/) by [NotABot](https://github.com/nota8ot) / [Fix](https://github.com/coatlessali/BetterWeaponColourMenu/releases/tag/UNIX) by [coatlessali](https://github.com/coatlessali)
 
 ## Fork Available (Untested)
 * None so far
 
 ## Issues
-* [UltraFunGuns](https://thunderstore.io/c/ultrakill/p/Hydraxous/UltraFunGuns/) by [Hydraxous](https://github.com/Hydraxous) / Shaders are missing on all custom models, can be fixed by enabling OpenGLCore in the Unity Build Settings
+* None so far
 
 ## Borked
 * [WafflesWeapons](https://thunderstore.io/c/ultrakill/p/Waff1e/WafflesWeapons/) by [Waff1e](https://github.com/wafflethings) / PENDING UPDATE - Will be moved to 'OotB'
