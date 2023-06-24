@@ -49,7 +49,8 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * None so far
 
 ## Issues
-* None so far
+* [PeachProjectiles](https://thunderstore.io/c/ultrakill/p/X_OWT/PeachProjectiles/) by [X_OWT](https://github.com/Twoxkkkk) / Shaders not compiled for GLCore
+* [FerrymanWithSpoon](https://thunderstore.io/c/ultrakill/p/X_OWT/FerrymanWithSpoon/) by [X_OWT](https://github.com/Twoxkkkk) / Possible shader issue?
 
 ## Borked
 * [WafflesWeapons](https://thunderstore.io/c/ultrakill/p/Waff1e/WafflesWeapons/) by [Waff1e](https://github.com/wafflethings) / PENDING UPDATE - Will be moved to 'OotB'
