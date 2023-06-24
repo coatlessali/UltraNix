@@ -40,6 +40,7 @@ NOTE: UltrakULL won't receive support properly until the next update releases.
 * [UKButt](https://github.com/PITR-DEV/ukbutt-mod) by **PITR\*** **(18+)**
 * [LowTierMinos](https://thunderstore.io/c/ultrakill/p/ImNotSimon/LowTierMinos/) by [ImNotSimon](https://github.com/ImNotSimon)
 * [UltraFunGuns](https://thunderstore.io/c/ultrakill/p/Hydraxous/UltraFunGuns/) by [Hydraxous](https://github.com/Hydraxous)
+* [ULTRAKILLCoinCounter](https://thunderstore.io/c/ultrakill/p/X_OWT/ULTRAKILLCoinCounter/) by [X_OWT](https://github.com/Twoxkkkk)
  
 ## Fork Available (Prebuilt)
 * [UltraTweaker](https://thunderstore.io/c/ultrakill/p/Waff1e/UltraTweaker/) by [Waff1e](https://github.com/wafflethings) / [OUTDATED Fix](https://github.com/coatlessali/UltraTweaker/releases/tag/UltraTweaker-UNIX) by [coatlessali](https://github.com/coatlessali)
