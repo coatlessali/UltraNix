@@ -4,12 +4,11 @@ A set of resources and scripts for porting ULTRAKILL to Linux/MacOS.
 ## NOTICE:
 So I really hoped I wouldn't have to put this here, but:
 
-***DO NOT REPORT BUGS RELATED TO THIS PORT IN ANY OFFICIAL CAPACITY.***
+***DO NOT REPORT BUGS RELATED TO THIS PORT TO ANY OFFICIAL CHANNELS.***
 
-***Unofficial Linux/MacOS support is maintained by ME.***
+***Unofficial Linux/MacOS support is maintained by coatlessali.***
 
-***Proton support is maintained by [VALVE](https://github.com/ValveSoftware/Proton/issues/4406)
-.***
+***Proton support is maintained by [VALVE](https://github.com/ValveSoftware/Proton/issues/4406).***
 
 Deploying Tactical Hakita Quote:
 
@@ -22,7 +21,6 @@ Deploying Tactical UKDS Quote:
 
 ![Screenshot_20231226-114607_Discord (6)](https://github.com/coatlessali/UltraNix/assets/61166135/96eed89c-d921-4426-a304-e9c70b67f404)
 
-
 ## WIP
 This README and associated Wiki are undergoing a rewrite soon to address the latest ULTRAKILL patch.
 
@@ -33,20 +31,15 @@ Moved to [the Wiki](https://github.com/coatlessali/UltraNix/wiki/F.A.Q.)
 Moved to [here](https://github.com/coatlessali/UltraNix/wiki/Downloading-ULTRAKILL-and-Plugins), and [here](https://github.com/coatlessali/UltraNix/wiki/Running-the-Ultraport-Script)
 
 ## Okay, but what does this *actually* do?
-* Downloads a dummy Unity player from a project I made.
-* Copies the necessary files from the dummy to your game folder. (Or from the game folder to the dummy, on MacOS)
-* Moves the plugins into their proper place.
-* Symlinks the Cybergrind folder to CyberGrind to workaround a bug. (Linux)
-* Moves all of your game assets and plugins into `ULTRAKILL.app/`. (MacOS)
-* Symlinks your `Saves/`, `Preferences/`, and `Cybergrind` into `ULTRAKILL.app/`. (MacOS)
+* Downloads a dummy Unity player for your operating system.
+* Copies/Moves necessary files to where the MacOS/Linux UnityPlayers expect them to be, including Steamworks/Discord plugins.
+* Symlinks several folders depending on OS. (i.e. `Cybergrind` to `CyberGrind` on Linux to work around a case sensitivity bug.)
 
 ## Notes About Mod Loading
-A lot of mods that use `\\` or `@"\"` instead of `Path.DirectorySeparatorChar` or `Path.Combine()` do not work on non-Win32 platforms. **Don't go yelling at the devs of these mods.** Instead, if their source code is available, try to fix it yourself and submit a Pull Request.
+Moved to Wiki
 
 ## F.A.Q.
-* Why do this?
-
-Proton seems to have issues trying to alt-tab out of Unity games. It also allows you to use the Linux version of BepInEx for mod loading. Most crucially, it allows MacOS players to experience ULTRAKILL. It's also just neat :3
+Moved to Wiki
 
 ## Known Issues
 Moved to [The Wiki](https://github.com/coatlessali/UltraNix/wiki/Known-Issues)
