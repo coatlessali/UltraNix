@@ -22,7 +22,7 @@ Deploying Tactical UKDS Quote:
 ![Screenshot_20231226-114607_Discord (6)](https://github.com/coatlessali/UltraNix/assets/61166135/96eed89c-d921-4426-a304-e9c70b67f404)
 
 ## WIP
-This README and associated Wiki are undergoing a rewrite soon to address the latest ULTRAKILL patch.
+This README and associated Wiki are undergoing a rewrite. Thank you.
 
 ## CLARIFICATIONS:
 Moved to [the Wiki](https://github.com/coatlessali/UltraNix/wiki/F.A.Q.)
