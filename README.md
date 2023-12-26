@@ -12,12 +12,14 @@ So I really hoped I wouldn't have to put this here, but:
 .***
 
 Deploying Tactical Hakita Quote:
+
 ![20230610_20h03m32s_grim](https://github.com/coatlessali/UltraNix/assets/61166135/86499157-27e0-4c30-bf52-5eb80ff0b064)
 
 ## SPEEDRUNNERS:
 **The Mods have spoken.** These ports are **not** speedrun legal. Do not submit runs that were performed on either. **Proton/CrossOver** have been deemed legal for runs, though.
 
 Deploying Tactical UKDS Quote:
+
 ![Screenshot_20231226-114607_Discord](https://github.com/coatlessali/UltraNix/assets/61166135/72f1b609-fea4-4a19-aad3-12404a7cf543)
 
 ## WIP
