@@ -1,3 +1,7 @@
+The following list of files are exempt from the below license agreement, as they were created using the Unity Editor 2019, and fall under the respective license for binaries built using the tool.
+* Darwin.tar.gz
+* Linux.tar.gz
+
 MIT License
 
 Copyright (c) 2023 coatlessali
