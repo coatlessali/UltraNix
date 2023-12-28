@@ -22,13 +22,10 @@ Deploying Tactical UKDS Quote:
 ![Screenshot_20231226-114607_Discord (6)](https://github.com/coatlessali/UltraNix/assets/61166135/96eed89c-d921-4426-a304-e9c70b67f404)
 
 ## WIP
-This README and associated Wiki are undergoing a rewrite. Thank you.
-
-## CLARIFICATIONS:
-Moved to [the Wiki](https://github.com/coatlessali/UltraNix/wiki/F.A.Q.)
+This README and associated Wiki are under construction. Thank you.
 
 ## Usage
-Moved to [here](https://github.com/coatlessali/UltraNix/wiki/Downloading-ULTRAKILL-and-Plugins), and [here](https://github.com/coatlessali/UltraNix/wiki/Running-the-Ultraport-Script)
+Check [Getting Started](https://github.com/coatlessali/UltraNix/wiki/Getting-Started).
 
 ## Okay, but what does this *actually* do?
 * Downloads a dummy Unity player for your operating system.
