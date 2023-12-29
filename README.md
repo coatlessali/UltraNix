@@ -47,4 +47,4 @@ Moved to [The Wiki](https://github.com/coatlessali/UltraNix/wiki/Known-Issues)
 * Mesa for their incredible drivers that allow this game to be played on very low end hardware at acceptable framerates.
 * The ULTRAKILL Development Team for making one of the best games I've ever played.
 * The wonderful developers in the UKDS #ultramods channel for being receptive to the idea of letting me help get their mods working on this silly little port.
-* Tommy Talarico for creating the amd64 architecture and OpenGL. His mother is very proud.
+* Tommy Tallarico for creating the amd64 architecture and OpenGL. His mother is very proud.
