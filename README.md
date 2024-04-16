@@ -1,5 +1,10 @@
-# PROJECT IS (mostly) DEAD
-I have no further interest in working on this, and 7-S is currently broken due to an upstream bug involving OpenGL. Any previous content will continue to be accessible until the Unity version is changed. If anyone wants to take over maintainership, open a discussion post.
+# PROJECT IS DEAD... For now.
+I have no further interest in working on this for now, and 7-S is currently broken due to an upstream bug involving OpenGL on Unity 2019. Any previous content will continue to be accessible until the Unity version is changed. PRs are still very much welcome, but I will not be providing further support for the time being. Once the game is updated to Unity 2022, I will try to come back, as that may fix a few bugs that have been longstanding.
+
+Thank you for your support, and kind messages.
+coatlessali, 2024
+
+![Screenshot_20240416-092355_Discord](https://github.com/coatlessali/UltraNix/assets/61166135/62ea8c00-1ad9-4b0b-8b43-86ca06ee5e5f)
 
 # UltraNix
 A set of resources and scripts for porting ULTRAKILL to Linux/MacOS.
@@ -9,7 +14,7 @@ So I really hoped I wouldn't have to put this here, but:
 
 ***DO NOT REPORT BUGS RELATED TO THIS PORT TO ANY OFFICIAL CHANNELS.***
 
-***Unofficial Linux/MacOS support is maintained by coatlessali.***
+***Unofficial Linux/MacOS support is (formerly) maintained by coatlessali.***
 
 ***Proton support is maintained by [VALVE](https://github.com/ValveSoftware/Proton/issues/4406).***
 
@@ -36,7 +41,7 @@ Check [Getting Started](https://github.com/coatlessali/UltraNix/wiki/Getting-Sta
 * Symlinks several folders depending on OS. (i.e. `Cybergrind` to `CyberGrind` on Linux to work around a case sensitivity bug.)
 
 ## Notes About Mod Loading
-Moved to Wiki
+You should be able to load mods normally through the UNIX version of BepInEx. Some of them are broken though, as they were written with Windows specific filepaths, or D3D11 shaders only.
 
 ## F.A.Q.
 Moved to Wiki
