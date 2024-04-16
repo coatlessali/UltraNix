@@ -1,5 +1,5 @@
 # PROJECT IS DEAD
-I have no further interest in working on this, and 7-S seems to not function correctly. If anyone wants to take over maintainership, open a discussion post.
+I have no further interest in working on this, and 7-S seems to not function correctly. Any previous content will continue to be accessible until the Unity version is changed. If anyone wants to take over maintainership, open a discussion post.
 
 # UltraNix
 A set of resources and scripts for porting ULTRAKILL to Linux/MacOS.
