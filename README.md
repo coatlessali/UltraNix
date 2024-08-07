@@ -1,5 +1,5 @@
 # PROJECT IS DEAD... For now.
-I have no further interest in working on this for now, and 7-S is currently broken due to an upstream bug involving OpenGL on Unity 2019. Any previous content will continue to be accessible until the Unity version is changed. PRs are still very much welcome, but I will not be providing further support for the time being. Once the game is updated to Unity 2022, I will try to come back, as that may fix a few bugs that have been longstanding.
+I have no further interest in working on this for now, and 7-S is currently broken due to an upstream bug involving OpenGL on Unity 2019. Any previous content will continue to be accessible until the Unity version is changed. PRs are still very much welcome, but I will not be providing further support for the time being. Once the game is updated to Unity 2022, I will try this whole thing again, as that may fix a few longstanding bugs. **Your main alternatives will be Proton (or WINE with DXVK) on Linux, or Whiskey on MacOS. The script needs a rewrite anyways.
 
 Thank you for your support, and kind messages.
 coatlessali, 2024
@@ -53,6 +53,6 @@ Moved to [The Wiki](https://github.com/coatlessali/UltraNix/wiki/Known-Issues)
 * PCGamingWiki: Original source for the Unity Linux porting guide.
 * analogfeelings for demonstrating this being possible on MacOS.
 * Mesa for their incredible drivers that allow this game to be played on very low end hardware at acceptable framerates.
-* The ULTRAKILL Development Team for making one of the best games I've ever played.
+* The ULTRAKILL Development Team for making one of the best games I've ever played. (Victoria in specific for giving insights on things like 7-S breaking under OpenGL.)
 * The wonderful developers in the UKDS #ultramods channel for being receptive to the idea of letting me help get their mods working on this silly little port.
 * Tommy Tallarico for creating the amd64 architecture and OpenGL. His mother is very proud.
