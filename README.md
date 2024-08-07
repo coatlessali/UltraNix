@@ -1,5 +1,5 @@
 # PROJECT IS DEAD... For now.
-I have no further interest in working on this for now, and 7-S is currently broken due to an upstream bug involving OpenGL on Unity 2019. Any previous content will continue to be accessible until the Unity version is changed, where a new dummy Unity project built on the 2022 runtime will be needed. PRs are still very much welcome, but I will not be providing further support for the time being. Once the game is updated to Unity 2022, I will try this whole thing again, as that may fix a few longstanding bugs. **Your main alternatives will be Proton (or WINE with DXVK) on Linux, or Whiskey on MacOS. The script needs a rewrite anyways.
+I have no further interest in working on this for now, and 7-S is currently broken due to an upstream bug involving OpenGL on Unity 2019. Any previous content will continue to be accessible until the Unity version is changed, where a new dummy Unity project built on the 2022 runtime will be needed. PRs are still very much welcome, but I will not be providing further support for the time being. Once the game is updated to Unity 2022, I will try this whole thing again, as that may fix a few longstanding bugs. **Your main alternatives will be Proton (or WINE with DXVK) on Linux, or Whiskey on MacOS.** The script needs a rewrite anyways.
 
 Thank you for your support, and kind messages.
 coatlessali, 2024
