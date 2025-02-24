@@ -1,58 +1,38 @@
-# PROJECT IS DEAD... For now.
+# Hey.
+This project is permanently dead, and the repository will be archived. 
 
-For the Mac people: [Check out this guide by Arensika. It's awesome.](https://arensika.neocities.org/ultramac)
+Let's talk about it, shall we?
 
-I have no further interest in working on this for now, and 7-S is currently broken due to an upstream bug involving OpenGL on Unity 2019. Any previous content will continue to be accessible until the Unity version is changed, where a new dummy Unity project built on the 2022 runtime will be needed. PRs are still very much welcome, but I will not be providing further support for the time being. Once the game is updated to Unity 2022, I will try this whole thing again, as that may fix a few longstanding bugs. **Your main alternatives will be Proton (or WINE with DXVK) on Linux, or Whiskey on MacOS.** The script needs a rewrite anyways.
+### But first, what should we do?
+- For the Intel Mac people: [Check out this guide by Arensika. It's awesome.](https://arensika.neocities.org/ultramac)
+- For the Apple Silicon Mac users: [Try Whisky](https://getwhisky.app/). There are some guides on getting Steam running, and it works pretty well.
+- For x86_64 Linux users: You can now force either OpenGL or *Native* Vulkan rendering using either `-force-glcore` or `-force-vulkan`. This has dropped the requirement for DXVK, which should lower the system requirements significantly, especially in the required number of Vulkan extensions. Unfortunately this doesn't fix a CPU bottleneck, but the performance improvements in the revamp update should help with this.
+- For ARM64 or RISC-V Linux, wait for advancements in Box64 and FEX-Emu.
+
+### Why end it now?
+So, today the ULTRA_REVAMP update dropped (which is great, by the way), so I immediately went to go grab the correct Unity Editor and dumped a native executable into the ULTRAKILL folder.
+
+The farthest I got was a black screen. It seems the game now requires BCrypt.dll to function correctly. This is a proprietary Windows library, and even trying to drop it into the correct folder unfortunately doesn't work to get past the initial black screen.
+
+There is a chance that the new intro video is an MP4, and since it can't play it crashes, though I doubt this, and I think the errors would've reflected it.
+
+### So what's the solution?
+As of now, I don't believe that anything is really needed on the Linux side. Proton works well enough, and DXVK is no longer needed for full functionality.
+
+The place a native port is really important is actually Apple Silicon Macs. I don't foresee ARM Linux devices taking off any time soon, but all Macs going forward will be ARM, and no matter what, emulation and translation together will encur a performance hit. I really hope we see one someday.
+
+### What if a native port comes?
+I will happily open a mod compatibility tracker, and help port mods.
+
+### Closing Thoughts
+In the long run, something like this working for even a brief window of time in the state it did was frankly a miracle. This was never really going to be a sustainable long term way to play the game.
+
+Thank you to the dev team for allowing this to exist for as long as it did, even if they might've never known this existed.
 
 Thank you for your support, and kind messages.
 coatlessali, 2024
 
-![Screenshot_20240416-092355_Discord](https://github.com/coatlessali/UltraNix/assets/61166135/62ea8c00-1ad9-4b0b-8b43-86ca06ee5e5f)
-
-# UltraNix
-A set of resources and scripts for porting ULTRAKILL to Linux/MacOS.
-
-## NOTICE:
-So I really hoped I wouldn't have to put this here, but:
-
-***DO NOT REPORT BUGS RELATED TO THIS PORT TO ANY OFFICIAL CHANNELS.***
-
-***Unofficial Linux/MacOS support is (formerly) maintained by coatlessali.***
-
-***Proton support is maintained by [VALVE](https://github.com/ValveSoftware/Proton/issues/4406).***
-
-Deploying Tactical Hakita Quote:
-
-![20230610_20h03m32s_grim](https://github.com/coatlessali/UltraNix/assets/61166135/86499157-27e0-4c30-bf52-5eb80ff0b064)
-
-## SPEEDRUNNERS:
-**The Mods have spoken.** These ports are **not** speedrun legal. Do not submit runs that were performed on either. **Proton/CrossOver** have been deemed legal for runs, though.
-
-Deploying Tactical UKDS Quote:
-
-![Screenshot_20231226-114607_Discord (6)](https://github.com/coatlessali/UltraNix/assets/61166135/96eed89c-d921-4426-a304-e9c70b67f404)
-
-## WIP
-This README and associated Wiki are under construction. Thank you.
-
-## Usage
-Check [Getting Started](https://github.com/coatlessali/UltraNix/wiki/Getting-Started).
-
-## Okay, but what does this *actually* do?
-* Downloads a dummy Unity player for your operating system.
-* Copies/Moves necessary files to where the MacOS/Linux UnityPlayers expect them to be, including Steamworks/Discord plugins.
-* Symlinks several folders depending on OS. (i.e. `Cybergrind` to `CyberGrind` on Linux to work around a case sensitivity bug.)
-
-## Notes About Mod Loading
-You should be able to load mods normally through the UNIX version of BepInEx. Some of them are broken though, as they were written with Windows specific filepaths, or D3D11 shaders only.
-
-## F.A.Q.
-Moved to Wiki
-
-## Known Issues
-Moved to [The Wiki](https://github.com/coatlessali/UltraNix/wiki/Known-Issues)
-
-## Credits
+Credits:
 * PCGamingWiki: Original source for the Unity Linux porting guide.
 * analogfeelings for demonstrating this being possible on MacOS.
 * Mesa for their incredible drivers that allow this game to be played on very low end hardware at acceptable framerates.
