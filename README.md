@@ -1,3 +1,6 @@
+### UPDATE 2025-04-15: 
+This project has been superceded by [FROWN](https://github.com/coatlessali/Frown). Go take a look at it if you still need something like this. **The rest of this readme is preserved below for posterity.**
+
 # Hey.
 This project is permanently dead, and the repository will be archived. 
 
